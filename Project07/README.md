@@ -233,10 +233,12 @@ Struggles:
 ```
 
 ## Successes
-Our team worked well together and shared ideas and resources that we found exceedingly helpful fo rlearning how ot implement the Burrows-Wheeler Transform. Specifically, on Tuesday, March 17th, after class, I (Stefanie) began researching the algorithm and identified a resource that I shared with my team, in addition to several teammates I had worked with on previous projects.The resource was an interactive tutorial by Robert Aboukhalil, co-creator of Sandbox-bio, an renouned educational platform for bioinformatics. This tutorial walks the reader through each step of the BWT algorithm and includes a greatly simplified approach to BWT inversion, which we demonstrated in our example in the introduction of this README document. 
+Our team worked well together and shared ideas and resources that we found exceedingly helpful for learning how to implement the Burrows-Wheeler Transform. Specifically, on Tuesday, March 17th, after class, I (Stefanie) began researching the algorithm and identified a resource that I shared with my team, in addition to several teammates I had worked with on previous projects.The resource was an interactive tutorial by Robert Aboukhalil, co-creator of Sandbox-bio, an renouned educational platform for bioinformatics. This tutorial walks the reader through each step of the BWT algorithm and includes a greatly simplified approach to BWT inversion, which we demonstrated in our example in the introduction of this README document. 
 
 ## Struggles
-Description of the stumbling blocks the team experienced
+I was going to add a sentence or two Our team did a great job conceptualizing BWT but it was not without its struggles. As we all had strengths and weaknesses with the algorithm, being able to articulate our understanding was a skill we had to develop as we are rarely put into the teacher role.
+
+As for implementation, although our team implemented the `encoding` and `decoding` functions, we did not actually use it in our FM search so our `find_match` although functional is not leveraging compression and decompression. This was more of an oversight on our behalf, as we were focused on implementing the function's concept. In future edits, our goal would be to include those two functions to showcase the power of BWT.
 
 # Personal Reflections
 ## Group Leader
